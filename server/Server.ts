@@ -40,7 +40,7 @@ class Server {
     }
     constructor(){
         this.app = express();
-        this.port = process.env.PORT || '8080';
+        this.port = process.env.PORT || '7070';
         this.server = require('http').createServer(this.app);
 
         this.io = require('socket.io')(this.server, {
