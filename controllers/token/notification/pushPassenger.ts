@@ -18,7 +18,7 @@ export const pushNotifyPassenger = async (req: Request, res: Response) => {
         method:'POST',
         headers:{
             'Content-Type':'application/json',
-            'Authorization':'key=AAAAqL0HQsw:APA91bFJDcVdrK2Uz8DiwcRh7wkB5jGlCBKwxoJeJ2pnn9BpPxc6iG58y2GloTDwvh_NAQoJtl2KS5-02QH9i4r72IuFNjTazloJzE5EGfu5eFXM2Jn5W5DIgD0Jbz5aLauEe1NW7Yqh',
+            'Authorization':'key=AAAA-oLwWwU:APA91bFoHp1lDQUaPJ9oPMsu5D0bjb5KIOcxNnD9hFCGYJxDTNeQa1-0Z15wAiZ1X6eFhVJxGwiiUWEgY2YsqAj2WAXmfw7jNv8b4luwqfRR_9K8sDzVDPzl9w9ns9vbL_K0SCItHJOt',
         },
         body:JSON.stringify(notificationReady)
     }).then((response:any)=>{

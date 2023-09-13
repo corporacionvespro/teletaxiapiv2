@@ -18,7 +18,7 @@ export const pushNotifyDriver = async (req: Request, res: Response) => {
         method:'POST',
         headers:{
             'Content-Type':'application/json',
-            'Authorization':'key=AAAA7uKyHu8:APA91bHL51tLdURVYXX2uXmVwixTEAvsly_f_WpRnElzcAyksOfM66q3qFmJxHLvznkX0UBBPhDFyxxAyjDPnWedy726VQQOFTegN3qF3k3gIPaIDvJFM7WxbTks0US9vihcfrjwAc1L',
+            'Authorization':'key=AAAAbz5Utl4:APA91bGsqidNwlNQEsvCWiToaFSFC_J3s1ZMUhdAJhm5xJbBKUxvJtusw93LoA4zyiuwegfQl80Hx65O416Oi9d6f05b9yjJ-t2nMm2UoiwWgWtLSLz_yKJmeJnuf78Vm4jqd_FvDwjN',
         },
         body:JSON.stringify(notificationReady)
     }).then((response:any)=>{
@@ -57,7 +57,7 @@ export const pushNotifyDriver = async (req: Request, res: Response) => {
         method:'POST',
         headers:{
             'Content-Type':'application/json',
-            'Authorization':'key=AAAAhH3VQcc:APA91bH_0HL3Q-ReQ8lWCuugm5gXiFqmCfHKCdZMam3LHrVmAYJ3PapWUCJvzGg1bUu6uDEqxn40UkNC9An1iqYQX1tMKwBVv1gEgMN5WQ_3K8x525TjOTdYhzDlUowZRAOyMy_ipTUc',
+            'Authorization':'key=AAAAbz5Utl4:APA91bGsqidNwlNQEsvCWiToaFSFC_J3s1ZMUhdAJhm5xJbBKUxvJtusw93LoA4zyiuwegfQl80Hx65O416Oi9d6f05b9yjJ-t2nMm2UoiwWgWtLSLz_yKJmeJnuf78Vm4jqd_FvDwjN',
         },
         body:JSON.stringify(notificationReady)
     }).then((response:any)=>{
